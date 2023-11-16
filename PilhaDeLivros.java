@@ -35,14 +35,14 @@ public class PilhaDeLivros {
 				System.out.println("\nAdicionado!\n");
 				break;
 			case 2:
-				System.out.println("\nClientes na fila\n");
+				System.out.println("\nLivros da pilha\n");
 				System.out.println(pilhaLivros + "\n");
 				break;
 			case 3:
 				if(pilhaLivros.isEmpty()) {
-					System.out.println("\nA fila está vazia!\n");
+					System.out.println("\nA pilha está vazia!\n");
 				} else {
-					System.out.println("\nO cliente " + pilhaLivros.pop() + " foi atendido!\n");
+					System.out.println("\nO livro " + pilhaLivros.pop() + " foi retirado!\n");
 				}
 				break;
 			}
